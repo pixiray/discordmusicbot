@@ -6,9 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Services\Discord\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="0.9.6" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
     <PackageReference Include="Microsoft.ServiceFabric" Version="5.4.164" />
