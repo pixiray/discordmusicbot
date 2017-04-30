@@ -2,7 +2,7 @@
 
 # Welcome to Discord Music Bot by PixiRay
 
-This is a development Project with Microsoft DX. Based on the Pixiray.io Services we creating during a Hackafest with Microsoft DX Germany. The Purpose is to offer a easy to use simple to understand Bot Management Portal for Discord.  
+This is a development Projec together with Microsoft DX. Based on the Pixiray.io Service we are creating a Hosted Bot service during a Hackafest with our friends from Microsoft DX Germany. The Purpose is to offer a easy to use simple to understand Bot Management Portal for Discord.  
 
 More Information will be available soon.
 
