@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
     <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <UserSecretsId>b2ea443b-854f-4370-8551-34d7aaf513f2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,13 @@
     <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.WebListener" Version="2.4.164-preview" />
     <PackageReference Include="Microsoft.ServiceFabric.Data" Version="2.4.164" />
     <PackageReference Include="Microsoft.ServiceFabric.Services" Version="2.4.164" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.1.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0-msbuild3-final" />
   </ItemGroup>
 
 </Project>
